@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+CMD [ "python3", "-m" , "flask", "run", "--host=http://flask-introduction-git-madjelly8504-dev.apps.sandbox.x8i5.p1.openshiftapps.com/"]
